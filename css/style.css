@@ -7926,6 +7926,10 @@ header.splash .container {
   padding-top: 50px;
   padding-bottom: 150px;
 }
+.resume {
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
 .program {
   padding-top: 150px;
   padding-bottom: 250px;
