@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Samantha Geitz | SISLT Portfolio | Home</title>
+    <title>Samantha Geitz | SISLT Portfolio | Competencies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="../css/style.css" rel="stylesheet" media="screen">
@@ -25,6 +25,38 @@
 
     <div class="competencies">
       <div class="container">
+        <h1>Canine College</h1>
+        <h3>Flash Authoring | Dr. Joi Moore | Spring 2012</h3>
+        <p><a href="#">View Project</a> | <a href="#">View Project Portfolio</a></p><br />
+
+        <h4>Artifact Description</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
+
+
+        <h4>Artifact's Intended Purpose</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
+
+        <h4>How does it demonstrate mastery of the competency?</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
+        
+        <h4>Role in project</h4>
+        <p>OnTrack was an individual project.</p><br />
+
+        <h4>Process</h4>
+        Step-by-step description of creation of each project from beginning to end
+        <ol>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Etc.</li>
+        </ol><br />
+
+        <h4>Software/programming languages used</h4>
+        <p>HTML / Flash Professional CS5 / Actionscript 3</p><br />
+        
+        <h4>Reflection</h4>       
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
+
+        <p><a href="competencies.html">Back to Competencies</a></p>
       </div>
     </div>
 
