@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samantha Geitz | SISLT Portfolio | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="../index.html">Samantha Geitz</a>
+          <ul class="nav pull-right">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../program.html">Program of Study</a></li>
+            <li class="active"><a href="../competencies/competencies.html">Competencies</a></li>
+            <li><a href="../reflection.html">Reflection</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="competencies">
+      <div class="container">
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2013 Samantha Geitz</p>
+      </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
