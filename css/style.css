@@ -7907,9 +7907,6 @@ html {
 .navbar-inner .container li {
   padding-left: 10px;
 }
-.navbar-inner .container li a:hover {
-  color: #BD6E29;
-}
 footer {
   background-color: #00010D;
   padding: 20px 0px 10px 700px;
@@ -7930,6 +7927,9 @@ header.splash .container {
   padding-top: 150px;
   padding-bottom: 250px;
 }
+.resume .sidebar-fixed {
+  position: fixed;
+}
 .program {
   padding-top: 150px;
   padding-bottom: 250px;
@@ -7948,6 +7948,21 @@ header.splash .container {
 .reflection {
   padding-top: 150px;
   padding-bottom: 250px;
+}
+.navbar-inverse .brand {
+  color: #BD6E29;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #00010D;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+.navbar-inverse .navbar-inner li a {
+  color: #BD6E29;
+}
+.navbar-inverse .navbar-inner li a:hover {
+  color: #8C3B0D;
 }
 .splash-header {
   color: #FFF;
