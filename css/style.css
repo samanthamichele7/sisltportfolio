@@ -7936,6 +7936,14 @@ header.splash .container {
 }
 .competencies .row {
   padding-bottom: 50px;
+  padding-top: 20px;
+}
+.competencies h4 {
+  padding-bottom: 5px;
+}
+.reflection {
+  padding-top: 150px;
+  padding-bottom: 250px;
 }
 .splash-header {
   color: #FFF;
