@@ -7950,7 +7950,7 @@ header.splash .container {
   padding-bottom: 250px;
 }
 .navbar-inverse .brand {
-  color: #BD6E29;
+  color: #e5184b;
 }
 .navbar-inverse .navbar-inner {
   background-color: #00010D;
@@ -7959,10 +7959,23 @@ header.splash .container {
   filter: none;
 }
 .navbar-inverse .navbar-inner li a {
-  color: #BD6E29;
+  color: #e5184b;
 }
 .navbar-inverse .navbar-inner li a:hover {
-  color: #8C3B0D;
+  color: #be2327;
+}
+h1 {
+  color: #b31c4f;
+}
+h2,
+h3 {
+  color: #6d025c;
+}
+a {
+  color: #be2327;
+}
+a:hover {
+  color: #eb702a;
 }
 .splash-header {
   color: #FFF;

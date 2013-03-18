@@ -1,8 +1,15 @@
 // LESS file for colors, buttons, etc.
 
+@pink: #e5184b;
+@dark-pink: #b31c4f;
+@purple: #6d025c;
+@grapefruit: #BE2327;
+@apricot: #EB702A;
+
+
 .navbar-inverse {
 	.brand {
-	    color: #BD6E29;
+	    color: @pink;
 	}
 	.navbar-inner {
 	  background-color: #00010D; 
@@ -11,12 +18,27 @@
 	  filter: none;
 	  li {	
 		  	a{
-		  	  color: #BD6E29;
+		  	  color: @pink;
 			  &:hover{
-				color: #8C3B0D;
+				color: @grapefruit;
 			  }
 			}
 		  
 		}
+	}
+}
+
+h1 {
+	color: @dark-pink;
+}
+
+h2, h3 {
+	color: @purple;
+}
+
+a{
+	color: @grapefruit;
+	&:hover{
+		color: @apricot;
 	}
 }
