@@ -7898,6 +7898,9 @@ html {
   width: 100%;
   height: 100%;
 }
+body {
+  background: url(../img/fabric_of_squares_gray.png) repeat top left;
+}
 .navbar-inner {
   min-height: 80px;
 }
@@ -7963,6 +7966,10 @@ header.splash .container {
 }
 .navbar-inverse .navbar-inner li a:hover {
   color: #be2327;
+}
+.well {
+  background-color: #f1f1f1;
+  border: 1px solid #E1e1e1;
 }
 h1 {
   color: #b31c4f;
