@@ -13,6 +13,7 @@
 		<ul>
 			<li>Add social networking icons</li>
 			<li>Update link to personal website (when finished)</li>
+			<li>Add PDF download file</li>
 		</ul>
 	<li>Program of Study</li>
 	<li>Competencies</li>
