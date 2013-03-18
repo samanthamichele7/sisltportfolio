@@ -15,9 +15,6 @@
 			<li>Update link to personal website (when finished)</li>
 		</ul>
 	<li>Program of Study</li>
-		<ul>
-			<li>Add tooltip popups to courses with descriptions</li>
-		</ul>
 	<li>Competencies</li>
 		<ul>
 			<li>Add description for each competency</li>
