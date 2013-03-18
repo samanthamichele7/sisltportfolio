@@ -7977,6 +7977,10 @@ a {
 a:hover {
   color: #eb702a;
 }
+header.splash h2,
+header.splash h3 {
+  color: white;
+}
 .splash-header {
   color: #FFF;
 }
