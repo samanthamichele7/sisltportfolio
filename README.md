@@ -8,7 +8,6 @@
 	<li>General</li>
 		<ul>
 			<li>Add more color/graphics to the entire site</li>
-			<li>Update link color (maybe purple or dark red?</li>
 		</ul>
 	<li>Resume</li>
 		<ul>
