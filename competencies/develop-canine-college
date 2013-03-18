@@ -27,7 +27,7 @@
       <div class="container">
         <h1>Canine College</h1>
         <h3>Flash Authoring | Dr. Joi Moore | Spring 2012</h3>
-        <p><a href="#">View Project</a> | <a href="#">View Project Portfolio</a></p><br />
+        <p><a href="projects/canine-college/app/canine-college.html" target="_blank">View Project</a> | <a href="#">View Project Portfolio</a></p><br />
 
         <h4>Artifact Description</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
@@ -40,7 +40,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, risus rhoncus pulvinar ornare, nisi nulla vehicula magna, sit amet pulvinar sem ante vitae dolor. Vestibulum orci lorem, faucibus nec faucibus sit amet, porttitor dignissim dolor. Vestibulum a pharetra dui. Nulla facilisi. Duis condimentum pulvinar eros, eu faucibus odio fermentum sed. Vivamus eu arcu eu metus posuere iaculis ultricies quis sapien. Proin faucibus varius risus in sollicitudin. Vivamus tempus sagittis eros, vel aliquet felis tristique at.</p><br />
         
         <h4>Role in project</h4>
-        <p>OnTrack was an individual project.</p><br />
+        <p>Canine College was an individual project.</p><br />
 
         <h4>Process</h4>
         Step-by-step description of creation of each project from beginning to end

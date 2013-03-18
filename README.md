@@ -24,36 +24,26 @@
 			<li>Add description for each competency</li>
 			<li>Needs Assessment</li>
 				<ul>
-					<li>Add Proposal</li>
-					<li>Add final report</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 			<li>Evaluation Report</li>
 				<ul>
-					<li>Add report</li>
-					<li>Link to PHI2Web, when added</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 			<li>SISLT App Worksheet</li>
 				<ul>
-					<li>Add project</li>
-					<li>Add portfolio</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 			<li>PHI2Web</li>
 				<ul>
-					<li>Add project</li>
-					<li>Add portfolio</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 			<li>OnTrack</li>
 				<ul>
-					<li>Add design plan</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 			<li>Canine College</li>
 				<ul>
-					<li>Add project</li>
 					<li>Replace lipsum sections with content</li>
 				</ul>
 		</ul>

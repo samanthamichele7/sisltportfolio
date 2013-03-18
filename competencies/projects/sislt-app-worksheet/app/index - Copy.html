@@ -1,0 +1,463 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<style>
+.header {
+	background-color: #FFE336;
+}
+
+#page div h4, #page2 div h4,#page3 div h4,#page4 div h4  {
+	font-size: 10px;
+}
+.header {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+</style>
+</head> 
+<body> 
+<!--<div data-role="nojs">
+<p><strong>WARNING:</strong>&nbsp; JavaScript needs to be enabled in the browser to view this application with mobile devices. Please enable JavaScript.
+</div>-->
+
+<div data-role="page" id="page">
+<div class="header"><img src="images/gs-logo.gif" alt="Insert Logo Here" name="Insert_logo" width="227" height="44" id="Insert_logo" style="background: #C6D580; display:block;" /></div>
+	<div data-role="header">
+		<h1>GRADUATE SCHOOL ADMISSION WORKSHEET - SISLT</h1>
+      
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true" data-filter="true">
+        <li data-role="list-divider" role="heading">
+       Which admission type best describes  you?
+        </li>
+        <li><h3><a href="#page2"><img src="images/d_1_icon.png" width="77" height="77">Domestic Students</a></h3>
+        <p>You have not attended MU</p></li>
+            <li>
+              <h3><a href="#page3"><img src="images/d_2_icon.png" width="77" height="77">Domestic Students </a></h3>
+              <p>You did attend MU</p>
+            </li>
+           
+			<li>
+			  <h3><a href="#page4"><img src="images/d_3_icon.png" width="77" height="77">Current Students</a></h3><p>Current MU Graduate students</p>
+			</li>
+            <li><img src="images/international_icon.png" width="77" height="77" alt="">
+              <h3><a href="#page5">International Students</a></h3><p>&nbsp;</p>
+            </li>
+            <li data-role="list-divider" role="heading">&nbsp;</li>
+		</ul>		
+	</div>
+	&nbsp;&nbsp;&nbsp;<a href="#faq_page" data-icon="info" data-inline="true" data-inset="true" data-rel="dialog" data-role="button">Frequently Asked Questions (FAQ)</a>
+<div data-role="footer">
+	<h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+<div class="header"><img src="images/gs-logo.gif" alt="Insert Logo Here" name="Insert_logo" width="227" height="44" id="Insert_logo" style="background: #C6D580; display:block;" /></div>
+
+	<div data-role="header">
+		<h1>Domestic Students (You have not attended MU)</h1>
+	</div>
+    
+    <div data-role="content">	
+	  <p>This worksheet is intended to help <strong>DOMESTIC</strong> students who have <strong>NOT previously attended</strong> the University of Missouri apply to the Masters of Education, Educational Specialist, and Doctor of Philosophy degrees in School of Information and Learning Technologies (SISLT) programs.</p>
+		<dl>
+		  <dt><strong>Deadline for M.Ed. and Ed.Sp. degrees: </strong></dt>
+          <dd>
+          May 1 - Fall semester
+            <br>
+            October 1 - Spring semester
+            <br>
+          March 1 - Summer semester</dd>
+	  </dl>
+      <dt><strong>Deadline for Ph.D. degrees: </strong></dt>
+          <dd>
+          February 15 - Fall semester
+            <br>
+            September 15 - Spring semester
+	  </dl>
+      
+	  <p>For questions regarding your application, please contact the <a href="mailto:sislt@missouri.edu">SISLT student coordinato</a>r or your <a href="http://gradschool.missouri.edu/about-us/contact.php#admission" target="_new">Graduate School Admissions Adviser</a>. </p>
+        
+      <div data-role="collapsible-set" data-collapsed="true">
+<div data-role="collapsible" data-theme="b" data-collapsed="true">
+		    <h3>Step&nbsp;1: <strong>Complete Application</strong></h3>
+		    <p>No action will be taken on your admission file until your Graduate School application   fee is received by the Graduate Admission Office (210 Jesse Hall /   Columbia, MO 65211).</p>
+		    <p>The Graduate School encourages applicants to use their online application, located here. Our 90+ graduate degree programs have instant access to review applications that have been submitted online. The submission of a <a href="http://gradschool.missouri.edu/admission/gradapp.pdf">hard-copy application (PDF)</a> will slow the application review process.</p>
+		    <p>Filling out the following information will help he SISLT student coordinator match this worksheet to your application:</p>
+          <hr>
+          <div data-role="fieldcontain">
+  <label for="textinput">Legal Name:
+  </label><br>
+  <input type="text" name="textinput" id="textinput" value=""  />
+  <br>
+  <div data-role="fieldcontain">
+    <label for="textinput2">Date of Birth:</label>
+    <br>
+<input type="text" name="textinput2" id="textinput2" value="MM/DD/YYYY"  />
+    <br>
+    <div data-role="fieldcontain">
+      <label for="textinput7">Email Address:</label>
+      <br>
+      <input type="text" name="textinput7" id="textinput7" value=""  />
+      <div data-role="fieldcontain">
+        <p>
+          <label for="textinput8">Apply Yourself ID:
+          </label><br>
+          <input type="text" name="textinput8" id="textinput8" value=""  />
+          &nbsp; ?</p>
+        <button data-inline="true">Save</button>
+
+      </div>
+    </div>
+    <hr>
+    		    <h3>Submit Application Fee</h3>
+		    <p>You can pay the application fee ($55) online through this online worksheet. Also, you can learn more about the <a href="http://gradschool.missouri.edu/admission/admission-fee.php">application fee and opportunities to obtain a waiver</a>.</p>
+		              
+		    <button data-icon="gear" data-inline="true">Submit Payment</button>
+
+  </div>
+</div>
+
+</p>
+</div>
+
+		  <div data-role="collapsible" data-collapsed="true" data-theme="b">
+		    <h3>Step&nbsp;2: <strong>Transcripts</strong> request</h3>
+            <p>Official  transcripts must be sent to the Graduate School  if&nbsp;you have received or will receive:</p>
+            <ol>
+              <ol>
+                <li>a <strong>degree</strong> from  another institution</li>
+                <li>a <strong>graduate-level credit</strong> from another  institution</li>
+              </ol>
+            </ol>
+            <p>An official hard copy of your transcripts  must be sent directly from each university or college you have attended to:</p>
+            <p> Graduate Admissions<br>
+            University of Missouri-Columbia<br>
+            210 Jesse Hall<br>
+            Columbia, MO 65211-1160.  </p>
+            <p>All transcripts become the   property of MU&nbsp;and will be scanned and destroyed upon receipt.</p>
+            <p><strong>NOTE</strong>: It can take at least 10 business  days for the Graduate School to upload transcripts once they arrive, so   be sure to send them a few weeks in advance.  You can track receipt by the Graduate  School on the ApplyYourself application.</p>
+<div data-role="fieldcontain">
+	      <fieldset data-role="controlgroup" data-type="horizontal">
+		        <legend>Have you&nbsp;requested your transcript(s) to be sent yet from each university or college you attended that meets this criteria?</legend>
+		        <input type="radio" name="transcript sent" id="transcriptsent_0" value="" />
+		        <label for="transcriptsent_0">Yes</label>
+		        <input type="radio" name="transcript sent" id="transcriptsent_1" value="" />
+		        <label for="transcriptsent_1">No</label>
+          </fieldset>
+	        </div>
+<button data-inline="true">Save</button>
+</p>
+          </div>
+          <div data-collapsed="true" data-inline="true" data-role="collapsible" data-theme="b">
+		    <h3>Step&nbsp;3:<strong> Test scores</strong></h3>
+		    <p>SISLT requires students to take the GRE for admission to all three of their degree programs. In general, their applications have met the following minimum scores:</p>
+		   
+<dl>
+		  <dt><strong>GRE taken before August 2011: </strong></dt>
+          <dd>
+          500 Verbal
+          <br>
+            500 Quantitative<br>
+          3.5 Written Analytical</dd>
+	  </dl>
+      <dl>
+		  <dt><strong>GRE taken after August 2011: </strong></dt>
+          <dd>
+          153 Verbal
+          <br>
+            144 Quantitative<br>
+          3.5 Written Analytical</dd>
+	  </dl>
+		    <p>Official scores must be   sent directly from the testing service provider to your academic program. You need to use the institution code of <strong>6875</strong> for MU.  (Learn more about <a href="http://gradschool.missouri.edu/admission/gre.php">standardized test scores and your application</a>).		    </p>
+		    <div data-role="fieldcontain">
+		      <fieldset data-role="controlgroup" data-type="horizontal">
+		        <legend>Have you taken your GRE yet?</legend>
+		        <input type="radio" name="score" id="score_0" value="" />
+		        <label for="score_0">Yes</label>
+		        <input type="radio" name="score" id="score_1" value="" />
+		        <label for="score_1">No</label>
+	          </fieldset>
+	        </div>
+            <p>If you answered yes, what were&nbsp; your scores?</p>
+                     
+            
+            <div data-role="fieldcontain">
+              <label for="textinput9">Verbal:</label>
+              <br>
+<input type="text" name="textinput9" id="textinput9" value=""  />
+              <div data-role="fieldcontain">
+                <label for="textinput11">Quantitative:</label>
+                <br>
+<input type="text" name="textinput11" id="textinput11" value=""  />
+              </div>
+              <div data-role="fieldcontain">
+                <label for="textinput10">Written Analytical:
+                </label><br>
+                <input type="text" name="textinput10" id="textinput10" value=""  />
+              </div>
+            </div>
+           
+
+            <button data-inline="true">Save</button>
+          </div>
+	    <div data-role="collapsible" data-collapsed="true" data-theme="b">
+	      <h3>Step&nbsp;4:<strong> Supplemental materials</strong></h3>
+	      <p>Upload the following supplemental material: resume, <a href="#sop_page" data-filter="false" data-rel="dialog" data-transition="flip">Statement Of Purpose</a> (SOP) or other supplemental materials you would like teh department to see:</p>
+	     <form action="#" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>
+			<label for="file"><strong>Resume:</strong></label>
+			<br>
+<input type="file" name="file" id="file" />
+			<input type="submit" name="upload" id="upload" value="Upload resume" />
+		</legend>		  
+		</fieldset> 
+        <hr>
+        <fieldset>
+			<legend>
+			<label for="file"><strong>SOP:
+			</strong></label>
+			?<br>
+			<input type="file" name="file" id="file" />
+			<input type="submit" name="upload" id="upload" value="Upload SOP" />
+		</legend>		  
+		</fieldset>
+        <hr>
+        <fieldset>
+			<legend>
+			<label for="file"><strong>Other:</strong></label>
+			?<br>
+			<input type="file" name="file" id="file" />
+			<input type="submit" name="upload" id="upload" value="Upload Other" />
+		</legend>		  
+		</fieldset>
+	</form>
+        </div>
+	    <div data-role="collapsible" data-collapsed="true" data-theme="b">
+	      <h3>Step&nbsp;5: <strong>Reference Information</strong></h3>
+          <p>Enter the names of the references (two for M.Ed. and Ed.Sp. students, three for Ph.D. students). You can track receipt by the Graduate School within the ApplyYourself system.&nbsp; <strong>However, the status of hard-copy recommendations are NOT currently recorded in the system.</strong></p>
+          <hr>
+          <p><strong>Letter of Reference 1:</strong></p>
+          <div data-role="fieldcontain">
+            <p>
+              <label for="textinput3">Reference Name:
+              </label>
+              <br>
+              <input name="textinput3" type="text" id="textinput3" value="" style="width:200px"/>
+            </p>
+            <div data-role="fieldcontain">
+              <fieldset data-role="controlgroup" data-type="horizontal">
+            Request Sent?<br>
+             
+<input type="radio" name="reference1" id="reference1_0" value="" />
+                <label for="reference1_0">Yes</label>
+                <input type="radio" name="reference1" id="reference1_1" value="" />
+                <label for="reference1_1">No</label>
+              </fieldset>
+            </div>
+            <hr>
+            
+          
+          </div>
+                    <p><strong>Letter of Reference 2:</strong></p>
+          <div data-role="fieldcontain">
+            <p>
+              <label for="textinput3">Reference Name:
+              </label>
+              <br>
+              <input name="textinput3" type="text" id="textinput3" value="" style="width:200px"/>
+            </p>
+            <div data-role="fieldcontain">
+              <fieldset data-role="controlgroup" data-type="horizontal">
+            Request Sent?<br>
+             
+<input type="radio" name="reference1" id="reference1_0" value="" />
+                <label for="reference1_0">Yes</label>
+                <input type="radio" name="reference1" id="reference1_1" value="" />
+                <label for="reference1_1">No</label>
+              </fieldset>
+            </div>
+            <hr>
+            
+          
+          </div>
+                    <p><strong>Letter of Reference 3 &#8212; Ph.D. Applicants ONLY:</strong></p>
+          <div data-role="fieldcontain">
+            <p>
+              <label for="textinput3">Reference Name:
+              </label>
+              <br>
+              <input name="textinput3" type="text" id="textinput3" value="" style="width:200px"/>
+            </p>
+            <div data-role="fieldcontain">
+              <fieldset data-role="controlgroup" data-type="horizontal">
+            Request Sent?<br>
+             
+<input type="radio" name="reference1" id="reference1_0" value="" />
+                <label for="reference1_0">Yes</label>
+                <input type="radio" name="reference1" id="reference1_1" value="" />
+                <label for="reference1_1">No</label>
+              </fieldset>
+            </div>       
+          </div>
+          <button data-inline="true">Save</button>
+<div data-role="footer">
+            <h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+</div>
+</div>  
+        
+        
+        
+        
+        
+        
+    </div>
+    
+ <a href="#faq_page" data-icon="info" data-inline="true" data-inset="true" data-rel="dialog" data-role="button">Frequently Asked Questions (FAQ)</a>   
+    <div data-role="footer">
+		<h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+    
+
+</div>
+
+<div data-role="page" id="page3">
+<div class="header"><img src="images/gs-logo.gif" alt="Insert Logo Here" name="Insert_logo" width="227" height="44" id="Insert_logo" style="background: #C6D580; display:block;" /></div>
+	<div data-role="header">
+		<h1>Domestic Students (You did attend MU)</h1>
+	</div>
+	<div data-role="content">	
+	  <p>This worksheet is intended to help <strong>DOMESTIC</strong> students who <strong> previously attended</strong> the University of Missouri apply to the Masters of Education, Educational Specialist, and Doctor of Philosophy degrees in School of Information and Learning Technologies (SISLT) programs.</p>
+		<dl>
+		  <dt><strong>Deadline for M.Ed. and Ed.Sp. degrees: </strong></dt>
+          <dd>
+          May 1 - Fall semester
+            <br>
+            October 1 - Spring semester
+            <br>
+          March 1 - Summer semester</dd>
+	  </dl>
+      <dt><strong>Deadline for Ph.D. degrees: </strong></dt>
+          <dd>
+          February 15 - Fall semester
+            <br>
+            September 15 - Spring semester
+	  </dl>
+      
+	  <p>For questions regarding your application, please contact the <a href="mailto:sislt@missouri.edu">SISLT student coordinato</a>r or your <a href="http://gradschool.missouri.edu/about-us/contact.php#admission" target="_new">Graduate School Admissions Adviser</a>. </p>
+  </div>
+    <a href="#faq_page" data-icon="info" data-inline="true" data-inset="true" data-rel="dialog" data-role="button">Frequently Asked Questions (FAQ)</a>
+	<div data-role="footer">
+		<h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+<div class="header"><img src="images/gs-logo.gif" alt="Insert Logo Here" name="Insert_logo" width="227" height="44" id="Insert_logo" style="background: #C6D580; display:block;" /></div>
+	<div data-role="header">
+		<h1>Current MU Graduate Students</h1>
+	</div>
+	<div data-role="content">	
+	  <p>This worksheet is intended to help<strong> CURRENT MU GRADUATE </strong>students apply to the Masters of Education, Educational Specialist, and Doctor of Philosophy degrees in School of Information and Learning Technologies (SISLT) programs.</p>
+		<dl>
+		  <dt><strong>Deadline for M.Ed. and Ed.Sp. degrees: </strong></dt>
+          <dd>
+          May 1 - Fall semester
+            <br>
+            October 1 - Spring semester
+            <br>
+          March 1 - Summer semester</dd>
+	  </dl>
+      <dt><strong>Deadline for Ph.D. degrees: </strong></dt>
+          <dd>
+          February 15 - Fall semester
+            <br>
+            September 15 - Spring semester
+	  </dl>
+      
+	  <p>For questions regarding your application, please contact the <a href="mailto:sislt@missouri.edu">SISLT student coordinato</a>r or your <a href="http://gradschool.missouri.edu/about-us/contact.php#admission" target="_new">Graduate School Admissions Adviser</a>. </p>
+  </div>
+    <a href="#faq_page" data-icon="info" data-inline="true" data-inset="true" data-rel="dialog" data-role="button">Frequently Asked Questions (FAQ)</a>
+	<div data-role="footer">
+	<h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+<div class="header"><img src="images/gs-logo.gif" alt="Insert Logo Here" name="Insert_logo" width="227" height="44" id="Insert_logo" style="background: #C6D580; display:block;" /></div>
+	<div data-role="header">
+		<h1>International Students</h1>
+	</div>
+	<div data-role="content">	
+	  <p>This worksheet is intended to help <strong>INTERNATIONAL</strong> students apply to the Masters of Education, Educational Specialist, and Doctor of Philosophy degrees in School of Information and Learning Technologies (SISLT) programs.</p>
+		<dl>
+		  <dt><strong>Deadline for M.Ed. and Ed.Sp. degrees: </strong></dt>
+          <dd>
+          May 1 - Fall semester
+            <br>
+            October 1 - Spring semester
+            <br>
+          March 1 - Summer semester</dd>
+	  </dl>
+      <dt><strong>Deadline for Ph.D. degrees: </strong></dt>
+          <dd>
+          February 15 - Fall semester
+            <br>
+            September 15 - Spring semester
+	  </dl>
+      
+  <p>For questions regarding your application, please contact the <a href="mailto:sislt@missouri.edu">SISLT student coordinato</a>r or your <a href="http://gradschool.missouri.edu/about-us/contact.php#admission" target="_new">Graduate School Admissions Adviser</a>. </p>	</div><a href="#faq_page" data-icon="info" data-inline="true" data-inset="true" data-rel="dialog" data-role="button">Frequently Asked Questions (FAQ)</a>
+    
+	<div data-role="footer">
+	<h4>© 2012, Curators of the University of Missouri. All rights reserved.</h4>
+	</div>
+</div>
+<div data-role="page" id="sop_page">
+<div data-role="header">
+		<h1>SOP Definition</h1>
+	</div>
+	<div data-role="content" >	
+		<p>SOP Definition: Add definition here...</p>
+		<a href="#" data-icon="back" data-id="true" data-inline="true" data-rel="back" data-role="button">Close Window</a> 
+    </div>
+	<div data-role="footer">
+	  <p>&nbsp;</p>
+	</div>
+</div>
+<div data-role="page" id="faq_page">
+<div data-role="header">
+		<h1>FAQ</h1>
+	</div>
+	<div data-role="content" >	
+		<p>FAQ: Add FAQ here...</p>
+		<p>FAQ Question 1<br>
+		 &nbsp;&nbsp; FAQ Answer 1
+		</p>
+		<p>FAQ Question 2<br>
+&nbsp;&nbsp; FAQ Answer 2 </p>
+		<p>FAQ Question 3<br>
+&nbsp;&nbsp; FAQ Answer 3 </p>
+		<p>FAQ Question 4<br>
+&nbsp;&nbsp; FAQ Answer 4</p>
+        <p>FAQ Question 5<br>
+  &nbsp;&nbsp; FAQ Answer 5</p>
+        <p>FAQ Question 6<br>
+  &nbsp;&nbsp; FAQ Answer 6</p>
+<p><a href="#" data-icon="back"  data-inline="true" data-rel="back" data-role="button">Close Window</a></p>
+    </div>
+	<div data-role="footer">
+	  <p>&nbsp;</p>
+	</div>
+</div>
+</body>
+</html>
