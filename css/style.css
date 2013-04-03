@@ -7943,11 +7943,14 @@ header.splash .container {
   padding-bottom: 250px;
 }
 .competencies .row {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   padding-top: 20px;
 }
 .competencies h4 {
   padding-bottom: 5px;
+}
+.competencies .artifact-screenshot img {
+  margin-top: 40px;
 }
 .reflection {
   padding-top: 150px;
